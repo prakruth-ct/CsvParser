@@ -21,6 +21,7 @@
 		AB06D969234369A6003E45B6 /* TestSheet2.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D968234369A6003E45B6 /* TestSheet2.xlsx */; };
 		AB06D96B2343735C003E45B6 /* TestSheet2.csv in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96A2343735C003E45B6 /* TestSheet2.csv */; };
 		AB06D96D234378C2003E45B6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D96C234378C2003E45B6 /* Model.swift */; };
+		AB06D96F2343A185003E45B6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D96E2343A185003E45B6 /* Extensions.swift */; };
 		AB3CC57A234327E2009E9570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CC579234327E2009E9570 /* AppDelegate.swift */; };
 		AB3CC57C234327E2009E9570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CC57B234327E2009E9570 /* ViewController.swift */; };
 		AB3CC57F234327E2009E9570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC57D234327E2009E9570 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		AB06D968234369A6003E45B6 /* TestSheet2.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestSheet2.xlsx; path = Data/TestSheet2.xlsx; sourceTree = "<group>"; };
 		AB06D96A2343735C003E45B6 /* TestSheet2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = TestSheet2.csv; path = Data/TestSheet2.csv; sourceTree = "<group>"; };
 		AB06D96C234378C2003E45B6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AB06D96E2343A185003E45B6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		AB3CC576234327E2009E9570 /* ExcelToJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelToJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3CC579234327E2009E9570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB3CC57B234327E2009E9570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		AB3CC56D234327E2009E9570 = {
 			isa = PBXGroup;
 			children = (
+				AB06D96E2343A185003E45B6 /* Extensions.swift */,
 				AB06D96A2343735C003E45B6 /* TestSheet2.csv */,
 				AB06D968234369A6003E45B6 /* TestSheet2.xlsx */,
 				AB06D96623436033003E45B6 /* Product InitiativesSummary Sept302019.csv */,
@@ -277,6 +280,7 @@
 				AB06D96D234378C2003E45B6 /* Model.swift in Sources */,
 				AB06D95623433639003E45B6 /* ViewManager.swift in Sources */,
 				AB3CC57C234327E2009E9570 /* ViewController.swift in Sources */,
+				AB06D96F2343A185003E45B6 /* Extensions.swift in Sources */,
 				AB06D94D23433115003E45B6 /* MainVC.swift in Sources */,
 				AB3CC57A234327E2009E9570 /* AppDelegate.swift in Sources */,
 				AB06D950234334BF003E45B6 /* Constants.swift in Sources */,

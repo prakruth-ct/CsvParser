@@ -1,3 +1,8 @@
+struct CSVModel {
+    var sectionTitle: String
+    var row: RowContents
+}
+
 struct RowContents {
     var slNo: Int
     var initiative: String

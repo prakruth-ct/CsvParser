@@ -14,6 +14,8 @@ class ViewManager {
     func openCSVFile() {
         guard  let filePath = Bundle.main.path(forResource: fileName, ofType: Constants.FileTypes.csv) else { return }
         
+        var fileContents2: [CSVModel] = []
+        var sectionTitle: String
         let fileContents = try? String(contentsOfFile: filePath)
         print(fileContents)
         var cleanedFileContents: [[String]] = [[]]
@@ -64,6 +66,19 @@ class ViewManager {
 //            }
 //            var rowContents = RowContents(slNo: Int(row[0]), initiative: row[1], description: row[2], pilotData: row[3], clientLaunchData: row[4], online: row, mobile: <#String#>, dda: <#String#>, wealth: <#String#>)
 //
+//        }
+        
+        
+//
+//        let columns = eachRow.components(separatedBy: ",")
+//        if columns.first == "Table 1" {
+//            continue
+//        } else if columns.first == Constants.hashString {
+//            continue
+//        } else if columns.first?.isNumber ?? true {
+//            cleanedFileContents.append(columns)
+//        } else {
+//            fileContents2.append(CSVModel(sectionTitle: <#String#>, row: <#RowContents#>))
 //        }
     }
     
