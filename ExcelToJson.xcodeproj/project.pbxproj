@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC4E86632651FD17BBB7101 /* Pods_ExcelToJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9C25DACBA1672F276525A1 /* Pods_ExcelToJson.framework */; };
+		AB06D94D23433115003E45B6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D94B23433115003E45B6 /* MainVC.swift */; };
+		AB06D94E23433115003E45B6 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB06D94C23433115003E45B6 /* MainVC.xib */; };
+		AB06D950234334BF003E45B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D94F234334BF003E45B6 /* Constants.swift */; };
+		AB06D9522343352B003E45B6 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D9512343352B003E45B6 /* BaseVM.swift */; };
+		AB06D95623433639003E45B6 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D95523433639003E45B6 /* ViewManager.swift */; };
+		AB06D95C234355D9003E45B6 /* TP-YML-iOS.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D95A234355D9003E45B6 /* TP-YML-iOS.xlsx */; };
+		AB06D95D234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D95B234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx */; };
+		AB06D96323435E85003E45B6 /* TestSheet.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96223435E85003E45B6 /* TestSheet.xlsx */; };
+		AB06D96523435FD7003E45B6 /* TestSheet.csv in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96423435FD7003E45B6 /* TestSheet.csv */; };
+		AB06D96723436033003E45B6 /* Product InitiativesSummary Sept302019.csv in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96623436033003E45B6 /* Product InitiativesSummary Sept302019.csv */; };
+		AB06D969234369A6003E45B6 /* TestSheet2.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D968234369A6003E45B6 /* TestSheet2.xlsx */; };
+		AB06D96B2343735C003E45B6 /* TestSheet2.csv in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96A2343735C003E45B6 /* TestSheet2.csv */; };
+		AB06D96D234378C2003E45B6 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D96C234378C2003E45B6 /* Model.swift */; };
+		AB3CC57A234327E2009E9570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CC579234327E2009E9570 /* AppDelegate.swift */; };
+		AB3CC57C234327E2009E9570 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3CC57B234327E2009E9570 /* ViewController.swift */; };
+		AB3CC57F234327E2009E9570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC57D234327E2009E9570 /* Main.storyboard */; };
+		AB3CC581234327F2009E9570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC580234327F2009E9570 /* Assets.xcassets */; };
+		AB3CC584234327F2009E9570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC582234327F2009E9570 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		234790E99BBD7B93F2704577 /* Pods-ExcelToJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelToJson.debug.xcconfig"; path = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson.debug.xcconfig"; sourceTree = "<group>"; };
+		6633AECDA6D3F6E2A6F1DE16 /* Pods-ExcelToJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExcelToJson.release.xcconfig"; path = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson.release.xcconfig"; sourceTree = "<group>"; };
+		AB06D94B23433115003E45B6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AB06D94C23433115003E45B6 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		AB06D94F234334BF003E45B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB06D9512343352B003E45B6 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
+		AB06D95523433639003E45B6 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		AB06D95A234355D9003E45B6 /* TP-YML-iOS.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TP-YML-iOS.xlsx"; path = "Data/TP-YML-iOS.xlsx"; sourceTree = "<group>"; };
+		AB06D95B234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product InitiativesSummary Sept302019.xlsx"; path = "Data/Product InitiativesSummary Sept302019.xlsx"; sourceTree = "<group>"; };
+		AB06D96223435E85003E45B6 /* TestSheet.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestSheet.xlsx; path = Data/TestSheet.xlsx; sourceTree = "<group>"; };
+		AB06D96423435FD7003E45B6 /* TestSheet.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = TestSheet.csv; path = Data/TestSheet.csv; sourceTree = "<group>"; };
+		AB06D96623436033003E45B6 /* Product InitiativesSummary Sept302019.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Product InitiativesSummary Sept302019.csv"; path = "Data/Product InitiativesSummary Sept302019.csv"; sourceTree = "<group>"; };
+		AB06D968234369A6003E45B6 /* TestSheet2.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestSheet2.xlsx; path = Data/TestSheet2.xlsx; sourceTree = "<group>"; };
+		AB06D96A2343735C003E45B6 /* TestSheet2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; name = TestSheet2.csv; path = Data/TestSheet2.csv; sourceTree = "<group>"; };
+		AB06D96C234378C2003E45B6 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AB3CC576234327E2009E9570 /* ExcelToJson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelToJson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3CC579234327E2009E9570 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB3CC57B234327E2009E9570 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB3CC57E234327E2009E9570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB3CC580234327F2009E9570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB3CC583234327F2009E9570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB3CC585234327F2009E9570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD9C25DACBA1672F276525A1 /* Pods_ExcelToJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelToJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB3CC573234327E2009E9570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC4E86632651FD17BBB7101 /* Pods_ExcelToJson.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AD63BED5962B09518107C55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				234790E99BBD7B93F2704577 /* Pods-ExcelToJson.debug.xcconfig */,
+				6633AECDA6D3F6E2A6F1DE16 /* Pods-ExcelToJson.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		864081525B7D00CC2C71E071 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD9C25DACBA1672F276525A1 /* Pods_ExcelToJson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB06D94423432FE3003E45B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D94F234334BF003E45B6 /* Constants.swift */,
+				AB06D96C234378C2003E45B6 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB06D94523432FF1003E45B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D94B23433115003E45B6 /* MainVC.swift */,
+				AB06D94C23433115003E45B6 /* MainVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB06D94623432FF8003E45B6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D9512343352B003E45B6 /* BaseVM.swift */,
+				AB06D95523433639003E45B6 /* ViewManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB3CC56D234327E2009E9570 = {
+			isa = PBXGroup;
+			children = (
+				AB06D96A2343735C003E45B6 /* TestSheet2.csv */,
+				AB06D968234369A6003E45B6 /* TestSheet2.xlsx */,
+				AB06D96623436033003E45B6 /* Product InitiativesSummary Sept302019.csv */,
+				AB06D96423435FD7003E45B6 /* TestSheet.csv */,
+				AB06D96223435E85003E45B6 /* TestSheet.xlsx */,
+				AB06D95B234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx */,
+				AB06D95A234355D9003E45B6 /* TP-YML-iOS.xlsx */,
+				AB3CC578234327E2009E9570 /* ExcelToJson */,
+				AB3CC577234327E2009E9570 /* Products */,
+				1AD63BED5962B09518107C55 /* Pods */,
+				864081525B7D00CC2C71E071 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB3CC577234327E2009E9570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB3CC576234327E2009E9570 /* ExcelToJson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3CC578234327E2009E9570 /* ExcelToJson */ = {
+			isa = PBXGroup;
+			children = (
+				AB06D94623432FF8003E45B6 /* ViewModel */,
+				AB06D94523432FF1003E45B6 /* View */,
+				AB06D94423432FE3003E45B6 /* Model */,
+				AB3CC579234327E2009E9570 /* AppDelegate.swift */,
+				AB3CC57B234327E2009E9570 /* ViewController.swift */,
+				AB3CC57D234327E2009E9570 /* Main.storyboard */,
+				AB3CC580234327F2009E9570 /* Assets.xcassets */,
+				AB3CC582234327F2009E9570 /* LaunchScreen.storyboard */,
+				AB3CC585234327F2009E9570 /* Info.plist */,
+			);
+			path = ExcelToJson;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB3CC575234327E2009E9570 /* ExcelToJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3CC588234327F2009E9570 /* Build configuration list for PBXNativeTarget "ExcelToJson" */;
+			buildPhases = (
+				1729F060E6A67769D5FA0E8A /* [CP] Check Pods Manifest.lock */,
+				AB3CC572234327E2009E9570 /* Sources */,
+				AB3CC573234327E2009E9570 /* Frameworks */,
+				AB3CC574234327E2009E9570 /* Resources */,
+				60F72A62EB0A872E4C64AFAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelToJson;
+			productName = ExcelToJson;
+			productReference = AB3CC576234327E2009E9570 /* ExcelToJson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB3CC56E234327E2009E9570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Prakruth Nagaraj";
+				TargetAttributes = {
+					AB3CC575234327E2009E9570 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = AB3CC571234327E2009E9570 /* Build configuration list for PBXProject "ExcelToJson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB3CC56D234327E2009E9570;
+			productRefGroup = AB3CC577234327E2009E9570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB3CC575234327E2009E9570 /* ExcelToJson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB3CC574234327E2009E9570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06D96B2343735C003E45B6 /* TestSheet2.csv in Resources */,
+				AB06D969234369A6003E45B6 /* TestSheet2.xlsx in Resources */,
+				AB06D96723436033003E45B6 /* Product InitiativesSummary Sept302019.csv in Resources */,
+				AB06D96523435FD7003E45B6 /* TestSheet.csv in Resources */,
+				AB06D96323435E85003E45B6 /* TestSheet.xlsx in Resources */,
+				AB06D95C234355D9003E45B6 /* TP-YML-iOS.xlsx in Resources */,
+				AB06D95D234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx in Resources */,
+				AB3CC584234327F2009E9570 /* LaunchScreen.storyboard in Resources */,
+				AB06D94E23433115003E45B6 /* MainVC.xib in Resources */,
+				AB3CC581234327F2009E9570 /* Assets.xcassets in Resources */,
+				AB3CC57F234327E2009E9570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1729F060E6A67769D5FA0E8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExcelToJson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F72A62EB0A872E4C64AFAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB3CC572234327E2009E9570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB06D96D234378C2003E45B6 /* Model.swift in Sources */,
+				AB06D95623433639003E45B6 /* ViewManager.swift in Sources */,
+				AB3CC57C234327E2009E9570 /* ViewController.swift in Sources */,
+				AB06D94D23433115003E45B6 /* MainVC.swift in Sources */,
+				AB3CC57A234327E2009E9570 /* AppDelegate.swift in Sources */,
+				AB06D950234334BF003E45B6 /* Constants.swift in Sources */,
+				AB06D9522343352B003E45B6 /* BaseVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB3CC57D234327E2009E9570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3CC57E234327E2009E9570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB3CC582234327F2009E9570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB3CC583234327F2009E9570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB3CC586234327F2009E9570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB3CC587234327F2009E9570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB3CC589234327F2009E9570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234790E99BBD7B93F2704577 /* Pods-ExcelToJson.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelToJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedia.ExcelToJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3CC58A234327F2009E9570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6633AECDA6D3F6E2A6F1DE16 /* Pods-ExcelToJson.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ExcelToJson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedia.ExcelToJson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB3CC571234327E2009E9570 /* Build configuration list for PBXProject "ExcelToJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3CC586234327F2009E9570 /* Debug */,
+				AB3CC587234327F2009E9570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3CC588234327F2009E9570 /* Build configuration list for PBXNativeTarget "ExcelToJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3CC589234327F2009E9570 /* Debug */,
+				AB3CC58A234327F2009E9570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB3CC56E234327E2009E9570 /* Project object */;
+}

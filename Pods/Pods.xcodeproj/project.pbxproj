@@ -1,0 +1,1221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02804D0F6AA7A45175B3655322D6C8F0 /* XMLKeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5CC00FC8EBDFCD899A6340E9E6FA6EE /* XMLKeyedEncodingContainer.swift */; };
+		03E5EBE84FC7AE7A77785782B5FE28FD /* XMLHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7692545C03131A65929793799BE0865 /* XMLHeader.swift */; };
+		0D1DF01ABB82078B580EDFDE751F6CBD /* DecodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65948323AC22DFA446212F1F37009F53 /* DecodingErrorExtension.swift */; };
+		0FD4C17C8BA69F5E469FA284ECDF4298 /* URLBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA14EF6BB7D4D78751A724645C484C0 /* URLBox.swift */; };
+		11F1E4E619B54B2E2BB77820A8BB5AF8 /* XMLKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962B72047D344C9404C1C033E0F8B276 /* XMLKey.swift */; };
+		14E12ABF5E9F76EEA8416C71B6E1A49F /* CellReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF17CC529177426F6D1A1CCAB858094 /* CellReference.swift */; };
+		152B32EFB89B90A08B145D102EC5E588 /* Archive+Writing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0037A6470A29FD097FF2E2683EE52 /* Archive+Writing.swift */; };
+		1DD7F483830DFC9972EC194807DDAEB5 /* ColumnReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B65B46AC4FD206C86CBE3D35FCE02E /* ColumnReference.swift */; };
+		2196CDB9DDA460E94D17A7D6E8F2568F /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A799C8C305F7C9A59969A79FAAE93FA5 /* Box.swift */; };
+		30C3B2B2908764043B29316365B49943 /* ISO8601DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB7FD4B0B08E85D70DD3A2F1382C0F8 /* ISO8601DateFormatter.swift */; };
+		3249A1CF554FDCCE2972ED31913B9CE8 /* CoreXLSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E93E8D641F489D91430619446C2EB99F /* CoreXLSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34909062A3AF023BD2ECB4833606EB29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */; };
+		3BD1573E3FFD9796CF72098616BC1AA5 /* XMLUnkeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8AEC9BA7249ED25291E90095D49001 /* XMLUnkeyedDecodingContainer.swift */; };
+		41BBA509403564E51451A2ED07187351 /* XMLCoderElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5F322947E287A9A1AC580B127109B6 /* XMLCoderElement.swift */; };
+		46CC094A5B1717441505677EE0C182E9 /* XMLCoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6AD8DE1AE15ABBD663D1372D946EF7 /* XMLCoder-dummy.m */; };
+		4753D08C8AA9F4DC9D61AC28248CC633 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */; };
+		4861C29DAB4DFB90D75464D8BFC8F7C2 /* FileManager+ZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0692EC8D863AAD6FBB0D98B88B66B277 /* FileManager+ZIP.swift */; };
+		488EF3B0F1470B31E35DBB537478D13C /* SingleValueEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF8B2CEAE355C1B8B8C9BB4C643E77 /* SingleValueEncodingContainer.swift */; };
+		49A8F21C0D74181BA84A7D6126BF7257 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F26F92148E621C304F83177754CA27 /* Cell.swift */; };
+		4C8A8D434B6225072E4DEA8B19C50CAC /* Data+Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE6D9780AEEC89292B9DAD5976477AA /* Data+Serialization.swift */; };
+		4D8E21F158160A4DAAE305275A76A0CC /* KeyedStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95CC47C8833EFAD49577AE10B5FB436 /* KeyedStorage.swift */; };
+		4EFBC7D8E8A4635DABD14BFB6EFF4494 /* ZIPFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 021AB022129F87A3F1064E0AD1E4FE8E /* ZIPFoundation-dummy.m */; };
+		5245C2667C8A25BE97B539EFD50660B0 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441A3F83A1698533A847C23F68C6BDB1 /* Styles.swift */; };
+		579FCEFC45EF54E93DBE3A605236A62B /* SharedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3883CEDC848651F642C52F71C4BB5F /* SharedBox.swift */; };
+		5FC176D3332F371CBC413F1E13EAA9BC /* Pods-ExcelToJson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8186D98160E708234EC0F4173A3188F /* Pods-ExcelToJson-dummy.m */; };
+		616F012F71447BE8E51943C762B8570D /* CoreXLSX.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A65D2983BBF0C75CFB3D13D3C15E6 /* CoreXLSX.swift */; };
+		62FB11D4FB9D046A67745D73DD3A6C34 /* UIntBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC323FCBE00AECB6CBB186EC1841A85 /* UIntBox.swift */; };
+		6D011DC3DAD45515AD4EA84C279EA30E /* XMLDecodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE5E2DD5D4500E79876C33BED9BBDD /* XMLDecodingStorage.swift */; };
+		6E2C789181AD67D32AF660F2C9F4A82A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */; };
+		73667B693D8777AAD1262C93A1979D3A /* IntBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1418D0291397C1A8CFDB335E3B2C04 /* IntBox.swift */; };
+		738D2D39FAE8497E19A5AE70DD0A7640 /* CellQueries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1B715A7E8A493EBA98915D48122256 /* CellQueries.swift */; };
+		740845C4ED071CD149B90B25B9F9E09D /* Archive+Reading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA20D88099B1101D946F1DA4F1197B5 /* Archive+Reading.swift */; };
+		74C261122B504AFBDB303CF4239CD15C /* DataBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75035822006717400E59EAB3F644810 /* DataBox.swift */; };
+		766D4638A83B41E01775D34CF49D761B /* XMLEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37665C8BFB17DCB15E2CF22B32165827 /* XMLEncoder.swift */; };
+		776E669296899BDDBB60D8C3C0C6FA79 /* Pods-ExcelToJson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A148C5D51A5F4A38A4519B6DB6F760FF /* Pods-ExcelToJson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7786980AB491B0424D407DDC55783CE9 /* DateBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FFE9AA835BF7A47B86F1AC43B44C9C /* DateBox.swift */; };
+		7B18764A34C8FFAA1EF35892D53B08DF /* ZIPFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF52D7FA08FF07C9B57AF8870F0203D /* ZIPFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8020A168BF075E73A5963A4D62C301B3 /* DynamicNodeEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4AB00DFD760C396344F825588FAFE8 /* DynamicNodeEncoding.swift */; };
+		830BC59DAFAC117C86CDDB5228FFE7DC /* KeyedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BAF7556CB44C6BDC6C163B7D64D288 /* KeyedBox.swift */; };
+		8B10C047CF31DF58F0AF39548A95E8C9 /* XMLKeyedDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D39E592922C29A778274899EC5A7723 /* XMLKeyedDecodingContainer.swift */; };
+		8C90BDACAF3EBCF2B04DCBD77B2CA6ED /* CoreXLSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 977A59043EF63AC6F7097A320073808E /* CoreXLSX-dummy.m */; };
+		8F54AA2404F484751E74CD1311B585E0 /* XMLEncoderImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AA6DFE8F3CA13465321DDBCFF63BD2 /* XMLEncoderImplementation.swift */; };
+		9557D3CFB9F8A049C318A4748BDF0573 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261E210B4ACB02E145BCD0455AF4936 /* Path.swift */; };
+		98F8AFA522273ECE3108F439C40FC411 /* DecimalBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD07954B8135C809961417C3EE9787D /* DecimalBox.swift */; };
+		9F1C979D43FFBFAB5E96F659964BDFBC /* UnkeyedBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC778E3D623F9E15B41F5F9CB803A5B1 /* UnkeyedBox.swift */; };
+		A2448592ABEE1201EE3F2AE1C4819662 /* XMLEncodingStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A18BFFF9EB5A66E5866D199A11F621 /* XMLEncodingStorage.swift */; };
+		A6372EDD44F43E456586BD21769B291E /* SingleValueDecodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F246914437A463B1BA4E8D46E4BF020 /* SingleValueDecodingContainer.swift */; };
+		A71CCD0DB32452CD52361832662FC32E /* NullBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F3E1E98FC8BA0C76C458D4919384B /* NullBox.swift */; };
+		A8212EE39083309347FA329FF07F30E9 /* ZIPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC61536D544738BDF92E4E2B9DC9005 /* ZIPFoundation.framework */; };
+		A939C722F9EB661E6224B15345E08912 /* XMLUnkeyedEncodingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04757876155CADBFABF13C9365177A70 /* XMLUnkeyedEncodingContainer.swift */; };
+		AC839A1E6A5FCF5D509B51DEDD7071D4 /* XMLCoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9333AA3CFEA2EE7A1C10601431453A /* XMLCoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC95489E4B065C3736D200E31E985086 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400EB8E55B47C52BDF708955806AE270 /* String+Extensions.swift */; };
+		AD2067C7FE822B82B6F0CD73FB014869 /* Worksheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1F626B5FEA19BF20729645B7CD2935 /* Worksheet.swift */; };
+		AE086021912B0BFDDB88BDB0A48ACE41 /* Archive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA7ABF6093032AE4255B00D4E88CC2E /* Archive.swift */; };
+		AE2B13558A88AFC1EE286C0ACF882F45 /* StringBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B711A87957690B60B7464FBD4AE930 /* StringBox.swift */; };
+		B0AA2A97432F078038124B3AEB67634E /* Relationships.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7EDCB538D93861F5E376E37A3BD1B /* Relationships.swift */; };
+		B314198ECEA1824A9CC08B2688AB34AA /* XMLCoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5567526FFAD55AB27945A285826D7CA4 /* XMLCoder.framework */; };
+		B8BA13C1C131976F881E3B877435D33A /* SharedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93196797E2CAEEA749FD8D5CE771D293 /* SharedStrings.swift */; };
+		B92E262737811DF37DC77F703A11457E /* XMLDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2B2A303D4E820781E7AC5BF28B3A59 /* XMLDecoder.swift */; };
+		B9B06D4C9FDF5724E40D4AA860E257F6 /* XMLDecoderImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E9AD5902E77614FE2270D3A70D0330 /* XMLDecoderImplementation.swift */; };
+		C5B1A86080D09050466943CE63682897 /* EncodingErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B031BAA097472A042E68E113175594 /* EncodingErrorExtension.swift */; };
+		C8DAAB9BEEDB3C4CC9C296775583A478 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD1B3B6966BDD180CD69B70BE9CFC1F /* Entry.swift */; };
+		CFDD3495B2561535582D4353FD8C9889 /* Workbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6DD9C29E58582420FD292BD7DCBBFE /* Workbook.swift */; };
+		D1EDEB87A964C0F27E3E2696CEA3CCEB /* Metatypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A649FDF70E53DC590CE07B76B74B956A /* Metatypes.swift */; };
+		D2DBD76DA3D8A95F20BBC429755393D0 /* XMLReferencingEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D0244C7C25835A5D0E6DF2D53DEFA1 /* XMLReferencingEncoder.swift */; };
+		D771762552A9AC7B934552B5CE521C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */; };
+		E07937E7343878C20DAFC4C10771AFA1 /* DynamicNodeDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D71CB14BAAD27E819257D46384DB35 /* DynamicNodeDecoding.swift */; };
+		EB88779319C551F121CEA41C1F848B16 /* Data+Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155C52FDFA47B1152241439A4A5BE23C /* Data+Compression.swift */; };
+		EC12D33FC497E8FFC070A559F272E907 /* XMLStackParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6C1D2670060451C06AAA994CF98D78 /* XMLStackParser.swift */; };
+		F034E7DC6D3A1DC9F6914AE60C7CA1BB /* BoolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9271971409A9C5EDBBA00DCE53B906 /* BoolBox.swift */; };
+		F03E0BCA46E27A6BBB37BD86EFBB193E /* FloatBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B66B050006731225FF381519CE8A2C /* FloatBox.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7EDB4525F8CE14AA3F1B6D62870A3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B04C1F70F5EC647583FC131CED595D8;
+			remoteInfo = CoreXLSX;
+		};
+		3C9DF9DD225863E27FB945CBD49488A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1753B4FA19C5F745ADF56B844ACAB36;
+			remoteInfo = XMLCoder;
+		};
+		4E01E3EA5A85B2D54E9806838D54E190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1753B4FA19C5F745ADF56B844ACAB36;
+			remoteInfo = XMLCoder;
+		};
+		91E725C0F6DF4FA5C21AEA9A5126C1E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+		E3CB0775E54140DFFF7A1234E60870D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA15C8469D67684160CC2A7098EB841C;
+			remoteInfo = ZIPFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021AB022129F87A3F1064E0AD1E4FE8E /* ZIPFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIPFoundation-dummy.m"; sourceTree = "<group>"; };
+		02FEBFA20D267CF38EB36C756EE3CE95 /* CoreXLSX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreXLSX-Info.plist"; sourceTree = "<group>"; };
+		04757876155CADBFABF13C9365177A70 /* XMLUnkeyedEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLUnkeyedEncodingContainer.swift; path = Sources/XMLCoder/Encoder/XMLUnkeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		0692EC8D863AAD6FBB0D98B88B66B277 /* FileManager+ZIP.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+ZIP.swift"; path = "Sources/ZIPFoundation/FileManager+ZIP.swift"; sourceTree = "<group>"; };
+		06E5C93B4C57F411FF083CAAFF237E83 /* Pods-ExcelToJson-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExcelToJson-Info.plist"; sourceTree = "<group>"; };
+		0B501ADA4D88A858B40EBB50E77A7B6F /* CoreXLSX.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreXLSX.xcconfig; sourceTree = "<group>"; };
+		0BDF549C72C02CD9A5729C82825305B7 /* ZIPFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-prefix.pch"; sourceTree = "<group>"; };
+		0C537111A8151428D03187ECD66FF50D /* Pods-ExcelToJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExcelToJson.debug.xcconfig"; sourceTree = "<group>"; };
+		0D39E592922C29A778274899EC5A7723 /* XMLKeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLKeyedDecodingContainer.swift; path = Sources/XMLCoder/Decoder/XMLKeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		10BAF7556CB44C6BDC6C163B7D64D288 /* KeyedBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/KeyedBox.swift; sourceTree = "<group>"; };
+		155C52FDFA47B1152241439A4A5BE23C /* Data+Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Compression.swift"; path = "Sources/ZIPFoundation/Data+Compression.swift"; sourceTree = "<group>"; };
+		1B5F322947E287A9A1AC580B127109B6 /* XMLCoderElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLCoderElement.swift; path = Sources/XMLCoder/Auxiliaries/XMLCoderElement.swift; sourceTree = "<group>"; };
+		1DD07954B8135C809961417C3EE9787D /* DecimalBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecimalBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/DecimalBox.swift; sourceTree = "<group>"; };
+		1DDF8B2CEAE355C1B8B8C9BB4C643E77 /* SingleValueEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleValueEncodingContainer.swift; path = Sources/XMLCoder/Encoder/SingleValueEncodingContainer.swift; sourceTree = "<group>"; };
+		1FA7ABF6093032AE4255B00D4E88CC2E /* Archive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Archive.swift; path = Sources/ZIPFoundation/Archive.swift; sourceTree = "<group>"; };
+		25D71CB14BAAD27E819257D46384DB35 /* DynamicNodeDecoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicNodeDecoding.swift; path = Sources/XMLCoder/Decoder/DynamicNodeDecoding.swift; sourceTree = "<group>"; };
+		2DF17CC529177426F6D1A1CCAB858094 /* CellReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellReference.swift; path = Sources/CoreXLSX/Worksheet/CellReference.swift; sourceTree = "<group>"; };
+		37665C8BFB17DCB15E2CF22B32165827 /* XMLEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLEncoder.swift; path = Sources/XMLCoder/Encoder/XMLEncoder.swift; sourceTree = "<group>"; };
+		37AA6DFE8F3CA13465321DDBCFF63BD2 /* XMLEncoderImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLEncoderImplementation.swift; path = Sources/XMLCoder/Encoder/XMLEncoderImplementation.swift; sourceTree = "<group>"; };
+		3AA14EF6BB7D4D78751A724645C484C0 /* URLBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/URLBox.swift; sourceTree = "<group>"; };
+		3AA44520A5394C2C0D7D36A7D6359369 /* Pods-ExcelToJson-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExcelToJson-frameworks.sh"; sourceTree = "<group>"; };
+		3C1F626B5FEA19BF20729645B7CD2935 /* Worksheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Worksheet.swift; path = Sources/CoreXLSX/Worksheet/Worksheet.swift; sourceTree = "<group>"; };
+		3C8F4CA88FE30D364B752C0652EA5ACD /* Pods-ExcelToJson-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExcelToJson-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F616D3E24543D97C200EBBCFDF225D0 /* XMLCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMLCoder.framework; path = XMLCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400EB8E55B47C52BDF708955806AE270 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Sources/XMLCoder/Auxiliaries/String+Extensions.swift"; sourceTree = "<group>"; };
+		441A3F83A1698533A847C23F68C6BDB1 /* Styles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = Sources/CoreXLSX/Styles.swift; sourceTree = "<group>"; };
+		48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZIPFoundation.framework; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AD1498E99D54FA3770075C87B9CCEC /* ZIPFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZIPFoundation.modulemap; sourceTree = "<group>"; };
+		49B66B050006731225FF381519CE8A2C /* FloatBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/FloatBox.swift; sourceTree = "<group>"; };
+		4AA20D88099B1101D946F1DA4F1197B5 /* Archive+Reading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Reading.swift"; path = "Sources/ZIPFoundation/Archive+Reading.swift"; sourceTree = "<group>"; };
+		4C6AD8DE1AE15ABBD663D1372D946EF7 /* XMLCoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMLCoder-dummy.m"; sourceTree = "<group>"; };
+		5567526FFAD55AB27945A285826D7CA4 /* XMLCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XMLCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E9AD5902E77614FE2270D3A70D0330 /* XMLDecoderImplementation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLDecoderImplementation.swift; path = Sources/XMLCoder/Decoder/XMLDecoderImplementation.swift; sourceTree = "<group>"; };
+		5F7F3E1E98FC8BA0C76C458D4919384B /* NullBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NullBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/NullBox.swift; sourceTree = "<group>"; };
+		65948323AC22DFA446212F1F37009F53 /* DecodingErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodingErrorExtension.swift; path = Sources/XMLCoder/Decoder/DecodingErrorExtension.swift; sourceTree = "<group>"; };
+		67B031BAA097472A042E68E113175594 /* EncodingErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EncodingErrorExtension.swift; path = Sources/XMLCoder/Encoder/EncodingErrorExtension.swift; sourceTree = "<group>"; };
+		6DE0037A6470A29FD097FF2E2683EE52 /* Archive+Writing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Archive+Writing.swift"; path = "Sources/ZIPFoundation/Archive+Writing.swift"; sourceTree = "<group>"; };
+		7932FA6B8CF912DA9EE55EC31EC91852 /* CoreXLSX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreXLSX-prefix.pch"; sourceTree = "<group>"; };
+		7BC323FCBE00AECB6CBB186EC1841A85 /* UIntBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIntBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/UIntBox.swift; sourceTree = "<group>"; };
+		7C1B715A7E8A493EBA98915D48122256 /* CellQueries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellQueries.swift; path = Sources/CoreXLSX/Worksheet/CellQueries.swift; sourceTree = "<group>"; };
+		7F246914437A463B1BA4E8D46E4BF020 /* SingleValueDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleValueDecodingContainer.swift; path = Sources/XMLCoder/Decoder/SingleValueDecodingContainer.swift; sourceTree = "<group>"; };
+		7F32BA374050E41754C7B8AECADCD7CD /* XMLCoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMLCoder.xcconfig; sourceTree = "<group>"; };
+		7FB7FD4B0B08E85D70DD3A2F1382C0F8 /* ISO8601DateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateFormatter.swift; path = Sources/XMLCoder/Auxiliaries/ISO8601DateFormatter.swift; sourceTree = "<group>"; };
+		840B0847FF1D16B2647222B400C56DDF /* XMLCoder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMLCoder-Info.plist"; sourceTree = "<group>"; };
+		87B65B46AC4FD206C86CBE3D35FCE02E /* ColumnReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnReference.swift; path = Sources/CoreXLSX/Worksheet/ColumnReference.swift; sourceTree = "<group>"; };
+		93196797E2CAEEA749FD8D5CE771D293 /* SharedStrings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedStrings.swift; path = Sources/CoreXLSX/SharedStrings.swift; sourceTree = "<group>"; };
+		962B72047D344C9404C1C033E0F8B276 /* XMLKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLKey.swift; path = Sources/XMLCoder/Auxiliaries/XMLKey.swift; sourceTree = "<group>"; };
+		977A59043EF63AC6F7097A320073808E /* CoreXLSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreXLSX-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A148C5D51A5F4A38A4519B6DB6F760FF /* Pods-ExcelToJson-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExcelToJson-umbrella.h"; sourceTree = "<group>"; };
+		A261E210B4ACB02E145BCD0455AF4936 /* Path.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Path.swift; path = Sources/CoreXLSX/Path.swift; sourceTree = "<group>"; };
+		A321F0EBF07C54604D4BA724C4E64E16 /* Pods-ExcelToJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExcelToJson.release.xcconfig"; sourceTree = "<group>"; };
+		A4E2C5F9BE425A70B1E79E2018F11C54 /* Pods-ExcelToJson.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExcelToJson.modulemap"; sourceTree = "<group>"; };
+		A649FDF70E53DC590CE07B76B74B956A /* Metatypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metatypes.swift; path = Sources/XMLCoder/Auxiliaries/Metatypes.swift; sourceTree = "<group>"; };
+		A799C8C305F7C9A59969A79FAAE93FA5 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/XMLCoder/Auxiliaries/Box/Box.swift; sourceTree = "<group>"; };
+		A8186D98160E708234EC0F4173A3188F /* Pods-ExcelToJson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExcelToJson-dummy.m"; sourceTree = "<group>"; };
+		AB6C1D2670060451C06AAA994CF98D78 /* XMLStackParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLStackParser.swift; path = Sources/XMLCoder/Auxiliaries/XMLStackParser.swift; sourceTree = "<group>"; };
+		ABE6D9780AEEC89292B9DAD5976477AA /* Data+Serialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Serialization.swift"; path = "Sources/ZIPFoundation/Data+Serialization.swift"; sourceTree = "<group>"; };
+		AD2B2A303D4E820781E7AC5BF28B3A59 /* XMLDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLDecoder.swift; path = Sources/XMLCoder/Decoder/XMLDecoder.swift; sourceTree = "<group>"; };
+		AD9333AA3CFEA2EE7A1C10601431453A /* XMLCoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLCoder-umbrella.h"; sourceTree = "<group>"; };
+		B20515327921A2283CC1F65CDFEB655A /* Pods-ExcelToJson-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExcelToJson-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B303EEAA00339A2A39B938C204334BE8 /* CoreXLSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreXLSX.modulemap; sourceTree = "<group>"; };
+		B5B711A87957690B60B7464FBD4AE930 /* StringBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/StringBox.swift; sourceTree = "<group>"; };
+		B5CC00FC8EBDFCD899A6340E9E6FA6EE /* XMLKeyedEncodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLKeyedEncodingContainer.swift; path = Sources/XMLCoder/Encoder/XMLKeyedEncodingContainer.swift; sourceTree = "<group>"; };
+		B8F26F92148E621C304F83177754CA27 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Sources/CoreXLSX/Worksheet/Cell.swift; sourceTree = "<group>"; };
+		BA1418D0291397C1A8CFDB335E3B2C04 /* IntBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/IntBox.swift; sourceTree = "<group>"; };
+		BA8AEC9BA7249ED25291E90095D49001 /* XMLUnkeyedDecodingContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLUnkeyedDecodingContainer.swift; path = Sources/XMLCoder/Decoder/XMLUnkeyedDecodingContainer.swift; sourceTree = "<group>"; };
+		C1B4A66937BDA257BEEA4635F33D810A /* ZIPFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZIPFoundation-Info.plist"; sourceTree = "<group>"; };
+		C295987AE2B09CF225CCE9980A1A0492 /* XMLCoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMLCoder.modulemap; sourceTree = "<group>"; };
+		C93625AF7465E2CD485221EC274CE3D0 /* XMLCoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMLCoder-prefix.pch"; sourceTree = "<group>"; };
+		C9FFE9AA835BF7A47B86F1AC43B44C9C /* DateBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/DateBox.swift; sourceTree = "<group>"; };
+		CB4AB00DFD760C396344F825588FAFE8 /* DynamicNodeEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicNodeEncoding.swift; path = Sources/XMLCoder/Encoder/DynamicNodeEncoding.swift; sourceTree = "<group>"; };
+		CDC61536D544738BDF92E4E2B9DC9005 /* ZIPFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIPFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A18BFFF9EB5A66E5866D199A11F621 /* XMLEncodingStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLEncodingStorage.swift; path = Sources/XMLCoder/Encoder/XMLEncodingStorage.swift; sourceTree = "<group>"; };
+		D75035822006717400E59EAB3F644810 /* DataBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/DataBox.swift; sourceTree = "<group>"; };
+		D7692545C03131A65929793799BE0865 /* XMLHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLHeader.swift; path = Sources/XMLCoder/Auxiliaries/XMLHeader.swift; sourceTree = "<group>"; };
+		DB3883CEDC848651F642C52F71C4BB5F /* SharedBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/SharedBox.swift; sourceTree = "<group>"; };
+		DB6A65D2983BBF0C75CFB3D13D3C15E6 /* CoreXLSX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreXLSX.swift; path = Sources/CoreXLSX/CoreXLSX.swift; sourceTree = "<group>"; };
+		DCCE5E2DD5D4500E79876C33BED9BBDD /* XMLDecodingStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLDecodingStorage.swift; path = Sources/XMLCoder/Decoder/XMLDecodingStorage.swift; sourceTree = "<group>"; };
+		DDD1B3B6966BDD180CD69B70BE9CFC1F /* Entry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entry.swift; path = Sources/ZIPFoundation/Entry.swift; sourceTree = "<group>"; };
+		DDF52D7FA08FF07C9B57AF8870F0203D /* ZIPFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIPFoundation-umbrella.h"; sourceTree = "<group>"; };
+		E04AACA016488270F98B6303A27316DF /* ZIPFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIPFoundation.xcconfig; sourceTree = "<group>"; };
+		E26AA7E27CB716F6B4B964B2A5639017 /* Pods_ExcelToJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExcelToJson.framework; path = "Pods-ExcelToJson.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D0244C7C25835A5D0E6DF2D53DEFA1 /* XMLReferencingEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XMLReferencingEncoder.swift; path = Sources/XMLCoder/Encoder/XMLReferencingEncoder.swift; sourceTree = "<group>"; };
+		E93E8D641F489D91430619446C2EB99F /* CoreXLSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreXLSX-umbrella.h"; sourceTree = "<group>"; };
+		E95CC47C8833EFAD49577AE10B5FB436 /* KeyedStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyedStorage.swift; path = Sources/XMLCoder/Auxiliaries/KeyedStorage.swift; sourceTree = "<group>"; };
+		F7697CE4600AFF04DD7B37AB9EDFFC00 /* CoreXLSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreXLSX.framework; path = CoreXLSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6DD9C29E58582420FD292BD7DCBBFE /* Workbook.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Workbook.swift; path = Sources/CoreXLSX/Workbook.swift; sourceTree = "<group>"; };
+		FAF7EDCB538D93861F5E376E37A3BD1B /* Relationships.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Relationships.swift; path = Sources/CoreXLSX/Relationships.swift; sourceTree = "<group>"; };
+		FC778E3D623F9E15B41F5F9CB803A5B1 /* UnkeyedBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnkeyedBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/UnkeyedBox.swift; sourceTree = "<group>"; };
+		FE9271971409A9C5EDBBA00DCE53B906 /* BoolBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BoolBox.swift; path = Sources/XMLCoder/Auxiliaries/Box/BoolBox.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043AB8B68CC43A949570DE0665682BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D771762552A9AC7B934552B5CE521C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F6ACD15944DA6B66BDA771E1FEB14C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34909062A3AF023BD2ECB4833606EB29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEAA75228C1D85EE169F491A447D798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4753D08C8AA9F4DC9D61AC28248CC633 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8A6320C656EA7A83E4C7A3CD879D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2C789181AD67D32AF660F2C9F4A82A /* Foundation.framework in Frameworks */,
+				B314198ECEA1824A9CC08B2688AB34AA /* XMLCoder.framework in Frameworks */,
+				A8212EE39083309347FA329FF07F30E9 /* ZIPFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E21AF7D256E78A0EF5927E09123CF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7697CE4600AFF04DD7B37AB9EDFFC00 /* CoreXLSX.framework */,
+				E26AA7E27CB716F6B4B964B2A5639017 /* Pods_ExcelToJson.framework */,
+				3F616D3E24543D97C200EBBCFDF225D0 /* XMLCoder.framework */,
+				48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C5EC8207E94717E5DD7D4BC275291B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B303EEAA00339A2A39B938C204334BE8 /* CoreXLSX.modulemap */,
+				0B501ADA4D88A858B40EBB50E77A7B6F /* CoreXLSX.xcconfig */,
+				977A59043EF63AC6F7097A320073808E /* CoreXLSX-dummy.m */,
+				02FEBFA20D267CF38EB36C756EE3CE95 /* CoreXLSX-Info.plist */,
+				7932FA6B8CF912DA9EE55EC31EC91852 /* CoreXLSX-prefix.pch */,
+				E93E8D641F489D91430619446C2EB99F /* CoreXLSX-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CoreXLSX";
+			sourceTree = "<group>";
+		};
+		090C3B99053A4016E0E7939E9D15511C /* ZIPFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				1FA7ABF6093032AE4255B00D4E88CC2E /* Archive.swift */,
+				4AA20D88099B1101D946F1DA4F1197B5 /* Archive+Reading.swift */,
+				6DE0037A6470A29FD097FF2E2683EE52 /* Archive+Writing.swift */,
+				155C52FDFA47B1152241439A4A5BE23C /* Data+Compression.swift */,
+				ABE6D9780AEEC89292B9DAD5976477AA /* Data+Serialization.swift */,
+				DDD1B3B6966BDD180CD69B70BE9CFC1F /* Entry.swift */,
+				0692EC8D863AAD6FBB0D98B88B66B277 /* FileManager+ZIP.swift */,
+				9D8A96A8EB081A65DECEAC81C1EF3301 /* Support Files */,
+			);
+			name = ZIPFoundation;
+			path = ZIPFoundation;
+			sourceTree = "<group>";
+		};
+		56CB1A6E90DF58EF8BDEEA9608823804 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BC4C8EE2CF14A1C186E17F66D781ECF /* Pods-ExcelToJson */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		595A7F593251C8A9BA7C52F6D11F01AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F347C7047E770CB13956FC181017E2A /* CoreXLSX */,
+				C75BAE368305179B139818308C1077B5 /* XMLCoder */,
+				090C3B99053A4016E0E7939E9D15511C /* ZIPFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F347C7047E770CB13956FC181017E2A /* CoreXLSX */ = {
+			isa = PBXGroup;
+			children = (
+				B8F26F92148E621C304F83177754CA27 /* Cell.swift */,
+				7C1B715A7E8A493EBA98915D48122256 /* CellQueries.swift */,
+				2DF17CC529177426F6D1A1CCAB858094 /* CellReference.swift */,
+				87B65B46AC4FD206C86CBE3D35FCE02E /* ColumnReference.swift */,
+				DB6A65D2983BBF0C75CFB3D13D3C15E6 /* CoreXLSX.swift */,
+				A261E210B4ACB02E145BCD0455AF4936 /* Path.swift */,
+				FAF7EDCB538D93861F5E376E37A3BD1B /* Relationships.swift */,
+				93196797E2CAEEA749FD8D5CE771D293 /* SharedStrings.swift */,
+				441A3F83A1698533A847C23F68C6BDB1 /* Styles.swift */,
+				FA6DD9C29E58582420FD292BD7DCBBFE /* Workbook.swift */,
+				3C1F626B5FEA19BF20729645B7CD2935 /* Worksheet.swift */,
+				06C5EC8207E94717E5DD7D4BC275291B /* Support Files */,
+			);
+			name = CoreXLSX;
+			path = CoreXLSX;
+			sourceTree = "<group>";
+		};
+		9BC4C8EE2CF14A1C186E17F66D781ECF /* Pods-ExcelToJson */ = {
+			isa = PBXGroup;
+			children = (
+				A4E2C5F9BE425A70B1E79E2018F11C54 /* Pods-ExcelToJson.modulemap */,
+				B20515327921A2283CC1F65CDFEB655A /* Pods-ExcelToJson-acknowledgements.markdown */,
+				3C8F4CA88FE30D364B752C0652EA5ACD /* Pods-ExcelToJson-acknowledgements.plist */,
+				A8186D98160E708234EC0F4173A3188F /* Pods-ExcelToJson-dummy.m */,
+				3AA44520A5394C2C0D7D36A7D6359369 /* Pods-ExcelToJson-frameworks.sh */,
+				06E5C93B4C57F411FF083CAAFF237E83 /* Pods-ExcelToJson-Info.plist */,
+				A148C5D51A5F4A38A4519B6DB6F760FF /* Pods-ExcelToJson-umbrella.h */,
+				0C537111A8151428D03187ECD66FF50D /* Pods-ExcelToJson.debug.xcconfig */,
+				A321F0EBF07C54604D4BA724C4E64E16 /* Pods-ExcelToJson.release.xcconfig */,
+			);
+			name = "Pods-ExcelToJson";
+			path = "Target Support Files/Pods-ExcelToJson";
+			sourceTree = "<group>";
+		};
+		9D8A96A8EB081A65DECEAC81C1EF3301 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48AD1498E99D54FA3770075C87B9CCEC /* ZIPFoundation.modulemap */,
+				E04AACA016488270F98B6303A27316DF /* ZIPFoundation.xcconfig */,
+				021AB022129F87A3F1064E0AD1E4FE8E /* ZIPFoundation-dummy.m */,
+				C1B4A66937BDA257BEEA4635F33D810A /* ZIPFoundation-Info.plist */,
+				0BDF549C72C02CD9A5729C82825305B7 /* ZIPFoundation-prefix.pch */,
+				DDF52D7FA08FF07C9B57AF8870F0203D /* ZIPFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZIPFoundation";
+			sourceTree = "<group>";
+		};
+		A5821AC1729103233882039890B96806 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C295987AE2B09CF225CCE9980A1A0492 /* XMLCoder.modulemap */,
+				7F32BA374050E41754C7B8AECADCD7CD /* XMLCoder.xcconfig */,
+				4C6AD8DE1AE15ABBD663D1372D946EF7 /* XMLCoder-dummy.m */,
+				840B0847FF1D16B2647222B400C56DDF /* XMLCoder-Info.plist */,
+				C93625AF7465E2CD485221EC274CE3D0 /* XMLCoder-prefix.pch */,
+				AD9333AA3CFEA2EE7A1C10601431453A /* XMLCoder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XMLCoder";
+			sourceTree = "<group>";
+		};
+		B5ED3CE42B06C962B254379A85FDF5BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A0E217EB0B1486EF24F760FC9EADFB56 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BA2519F06C6014432EE271578B6A50AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5567526FFAD55AB27945A285826D7CA4 /* XMLCoder.framework */,
+				CDC61536D544738BDF92E4E2B9DC9005 /* ZIPFoundation.framework */,
+				B5ED3CE42B06C962B254379A85FDF5BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C75BAE368305179B139818308C1077B5 /* XMLCoder */ = {
+			isa = PBXGroup;
+			children = (
+				FE9271971409A9C5EDBBA00DCE53B906 /* BoolBox.swift */,
+				A799C8C305F7C9A59969A79FAAE93FA5 /* Box.swift */,
+				D75035822006717400E59EAB3F644810 /* DataBox.swift */,
+				C9FFE9AA835BF7A47B86F1AC43B44C9C /* DateBox.swift */,
+				1DD07954B8135C809961417C3EE9787D /* DecimalBox.swift */,
+				65948323AC22DFA446212F1F37009F53 /* DecodingErrorExtension.swift */,
+				25D71CB14BAAD27E819257D46384DB35 /* DynamicNodeDecoding.swift */,
+				CB4AB00DFD760C396344F825588FAFE8 /* DynamicNodeEncoding.swift */,
+				67B031BAA097472A042E68E113175594 /* EncodingErrorExtension.swift */,
+				49B66B050006731225FF381519CE8A2C /* FloatBox.swift */,
+				BA1418D0291397C1A8CFDB335E3B2C04 /* IntBox.swift */,
+				7FB7FD4B0B08E85D70DD3A2F1382C0F8 /* ISO8601DateFormatter.swift */,
+				10BAF7556CB44C6BDC6C163B7D64D288 /* KeyedBox.swift */,
+				E95CC47C8833EFAD49577AE10B5FB436 /* KeyedStorage.swift */,
+				A649FDF70E53DC590CE07B76B74B956A /* Metatypes.swift */,
+				5F7F3E1E98FC8BA0C76C458D4919384B /* NullBox.swift */,
+				DB3883CEDC848651F642C52F71C4BB5F /* SharedBox.swift */,
+				7F246914437A463B1BA4E8D46E4BF020 /* SingleValueDecodingContainer.swift */,
+				1DDF8B2CEAE355C1B8B8C9BB4C643E77 /* SingleValueEncodingContainer.swift */,
+				400EB8E55B47C52BDF708955806AE270 /* String+Extensions.swift */,
+				B5B711A87957690B60B7464FBD4AE930 /* StringBox.swift */,
+				7BC323FCBE00AECB6CBB186EC1841A85 /* UIntBox.swift */,
+				FC778E3D623F9E15B41F5F9CB803A5B1 /* UnkeyedBox.swift */,
+				3AA14EF6BB7D4D78751A724645C484C0 /* URLBox.swift */,
+				1B5F322947E287A9A1AC580B127109B6 /* XMLCoderElement.swift */,
+				AD2B2A303D4E820781E7AC5BF28B3A59 /* XMLDecoder.swift */,
+				58E9AD5902E77614FE2270D3A70D0330 /* XMLDecoderImplementation.swift */,
+				DCCE5E2DD5D4500E79876C33BED9BBDD /* XMLDecodingStorage.swift */,
+				37665C8BFB17DCB15E2CF22B32165827 /* XMLEncoder.swift */,
+				37AA6DFE8F3CA13465321DDBCFF63BD2 /* XMLEncoderImplementation.swift */,
+				D0A18BFFF9EB5A66E5866D199A11F621 /* XMLEncodingStorage.swift */,
+				D7692545C03131A65929793799BE0865 /* XMLHeader.swift */,
+				962B72047D344C9404C1C033E0F8B276 /* XMLKey.swift */,
+				0D39E592922C29A778274899EC5A7723 /* XMLKeyedDecodingContainer.swift */,
+				B5CC00FC8EBDFCD899A6340E9E6FA6EE /* XMLKeyedEncodingContainer.swift */,
+				E5D0244C7C25835A5D0E6DF2D53DEFA1 /* XMLReferencingEncoder.swift */,
+				AB6C1D2670060451C06AAA994CF98D78 /* XMLStackParser.swift */,
+				BA8AEC9BA7249ED25291E90095D49001 /* XMLUnkeyedDecodingContainer.swift */,
+				04757876155CADBFABF13C9365177A70 /* XMLUnkeyedEncodingContainer.swift */,
+				A5821AC1729103233882039890B96806 /* Support Files */,
+			);
+			name = XMLCoder;
+			path = XMLCoder;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA2519F06C6014432EE271578B6A50AD /* Frameworks */,
+				595A7F593251C8A9BA7C52F6D11F01AA /* Pods */,
+				05E21AF7D256E78A0EF5927E09123CF5 /* Products */,
+				56CB1A6E90DF58EF8BDEEA9608823804 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		409608C94C16DEB29E83E291E2931713 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776E669296899BDDBB60D8C3C0C6FA79 /* Pods-ExcelToJson-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783EF8242141CE32EB4CF868ADFFD8EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B18764A34C8FFAA1EF35892D53B08DF /* ZIPFoundation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0411995A0C62E7E346A2D5B30F14C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3249A1CF554FDCCE2972ED31913B9CE8 /* CoreXLSX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC536A54FE784181D210E9B4719B619A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC839A1E6A5FCF5D509B51DEDD7071D4 /* XMLCoder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B04C1F70F5EC647583FC131CED595D8 /* CoreXLSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C3ED5291E0BBE8DF4B589AAE46E16C /* Build configuration list for PBXNativeTarget "CoreXLSX" */;
+			buildPhases = (
+				CA0411995A0C62E7E346A2D5B30F14C8 /* Headers */,
+				478AC992B13237F3BF0061A9367B49E5 /* Sources */,
+				DA8A6320C656EA7A83E4C7A3CD879D43 /* Frameworks */,
+				C649766333237A481DDBBE336565CE16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC5B5568C62D5ABA4A24C2E71D882AE5 /* PBXTargetDependency */,
+				AF2D2F23556AF8D7682EF45EA0986FD8 /* PBXTargetDependency */,
+			);
+			name = CoreXLSX;
+			productName = CoreXLSX;
+			productReference = F7697CE4600AFF04DD7B37AB9EDFFC00 /* CoreXLSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ED3BC1898B1734C9090787807AA6A71 /* Pods-ExcelToJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18FC4F55E7ABF28179BB008ED971DFB /* Build configuration list for PBXNativeTarget "Pods-ExcelToJson" */;
+			buildPhases = (
+				409608C94C16DEB29E83E291E2931713 /* Headers */,
+				3C2BD28C0EFED865927243428FE16784 /* Sources */,
+				34F6ACD15944DA6B66BDA771E1FEB14C /* Frameworks */,
+				CDF12CA202EF56834F6C4A456DB863F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24937C8A71E3139BD70DBAF0F341CA4F /* PBXTargetDependency */,
+				A19E52766B0BDEE74A2C434067ACDB7F /* PBXTargetDependency */,
+				726F1FB43D450B990BB687AD95D9A3EF /* PBXTargetDependency */,
+			);
+			name = "Pods-ExcelToJson";
+			productName = "Pods-ExcelToJson";
+			productReference = E26AA7E27CB716F6B4B964B2A5639017 /* Pods_ExcelToJson.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8847081DFEF88935CB8957B3E9F541 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */;
+			buildPhases = (
+				783EF8242141CE32EB4CF868ADFFD8EA /* Headers */,
+				8858F6F51B9AFDA3B9AC56BF536F8EA7 /* Sources */,
+				CFEAA75228C1D85EE169F491A447D798 /* Frameworks */,
+				7960DD4EB2BF0C720DE85BCDF459330A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZIPFoundation;
+			productName = ZIPFoundation;
+			productReference = 48A4A6EDC08C8AC933D0DCD507E9D173 /* ZIPFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1753B4FA19C5F745ADF56B844ACAB36 /* XMLCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB394AA1634C69D190FA52E697F3518 /* Build configuration list for PBXNativeTarget "XMLCoder" */;
+			buildPhases = (
+				CC536A54FE784181D210E9B4719B619A /* Headers */,
+				F25FAC993463769E1504044D1608F04D /* Sources */,
+				043AB8B68CC43A949570DE0665682BE0 /* Frameworks */,
+				4C96CB686499E04001B726198F7DB60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMLCoder;
+			productName = XMLCoder;
+			productReference = 3F616D3E24543D97C200EBBCFDF225D0 /* XMLCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 05E21AF7D256E78A0EF5927E09123CF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B04C1F70F5EC647583FC131CED595D8 /* CoreXLSX */,
+				7ED3BC1898B1734C9090787807AA6A71 /* Pods-ExcelToJson */,
+				E1753B4FA19C5F745ADF56B844ACAB36 /* XMLCoder */,
+				AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C96CB686499E04001B726198F7DB60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7960DD4EB2BF0C720DE85BCDF459330A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649766333237A481DDBBE336565CE16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDF12CA202EF56834F6C4A456DB863F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C2BD28C0EFED865927243428FE16784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC176D3332F371CBC413F1E13EAA9BC /* Pods-ExcelToJson-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		478AC992B13237F3BF0061A9367B49E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A8F21C0D74181BA84A7D6126BF7257 /* Cell.swift in Sources */,
+				738D2D39FAE8497E19A5AE70DD0A7640 /* CellQueries.swift in Sources */,
+				14E12ABF5E9F76EEA8416C71B6E1A49F /* CellReference.swift in Sources */,
+				1DD7F483830DFC9972EC194807DDAEB5 /* ColumnReference.swift in Sources */,
+				8C90BDACAF3EBCF2B04DCBD77B2CA6ED /* CoreXLSX-dummy.m in Sources */,
+				616F012F71447BE8E51943C762B8570D /* CoreXLSX.swift in Sources */,
+				9557D3CFB9F8A049C318A4748BDF0573 /* Path.swift in Sources */,
+				B0AA2A97432F078038124B3AEB67634E /* Relationships.swift in Sources */,
+				B8BA13C1C131976F881E3B877435D33A /* SharedStrings.swift in Sources */,
+				5245C2667C8A25BE97B539EFD50660B0 /* Styles.swift in Sources */,
+				CFDD3495B2561535582D4353FD8C9889 /* Workbook.swift in Sources */,
+				AD2067C7FE822B82B6F0CD73FB014869 /* Worksheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8858F6F51B9AFDA3B9AC56BF536F8EA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740845C4ED071CD149B90B25B9F9E09D /* Archive+Reading.swift in Sources */,
+				152B32EFB89B90A08B145D102EC5E588 /* Archive+Writing.swift in Sources */,
+				AE086021912B0BFDDB88BDB0A48ACE41 /* Archive.swift in Sources */,
+				EB88779319C551F121CEA41C1F848B16 /* Data+Compression.swift in Sources */,
+				4C8A8D434B6225072E4DEA8B19C50CAC /* Data+Serialization.swift in Sources */,
+				C8DAAB9BEEDB3C4CC9C296775583A478 /* Entry.swift in Sources */,
+				4861C29DAB4DFB90D75464D8BFC8F7C2 /* FileManager+ZIP.swift in Sources */,
+				4EFBC7D8E8A4635DABD14BFB6EFF4494 /* ZIPFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25FAC993463769E1504044D1608F04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F034E7DC6D3A1DC9F6914AE60C7CA1BB /* BoolBox.swift in Sources */,
+				2196CDB9DDA460E94D17A7D6E8F2568F /* Box.swift in Sources */,
+				74C261122B504AFBDB303CF4239CD15C /* DataBox.swift in Sources */,
+				7786980AB491B0424D407DDC55783CE9 /* DateBox.swift in Sources */,
+				98F8AFA522273ECE3108F439C40FC411 /* DecimalBox.swift in Sources */,
+				0D1DF01ABB82078B580EDFDE751F6CBD /* DecodingErrorExtension.swift in Sources */,
+				E07937E7343878C20DAFC4C10771AFA1 /* DynamicNodeDecoding.swift in Sources */,
+				8020A168BF075E73A5963A4D62C301B3 /* DynamicNodeEncoding.swift in Sources */,
+				C5B1A86080D09050466943CE63682897 /* EncodingErrorExtension.swift in Sources */,
+				F03E0BCA46E27A6BBB37BD86EFBB193E /* FloatBox.swift in Sources */,
+				73667B693D8777AAD1262C93A1979D3A /* IntBox.swift in Sources */,
+				30C3B2B2908764043B29316365B49943 /* ISO8601DateFormatter.swift in Sources */,
+				830BC59DAFAC117C86CDDB5228FFE7DC /* KeyedBox.swift in Sources */,
+				4D8E21F158160A4DAAE305275A76A0CC /* KeyedStorage.swift in Sources */,
+				D1EDEB87A964C0F27E3E2696CEA3CCEB /* Metatypes.swift in Sources */,
+				A71CCD0DB32452CD52361832662FC32E /* NullBox.swift in Sources */,
+				579FCEFC45EF54E93DBE3A605236A62B /* SharedBox.swift in Sources */,
+				A6372EDD44F43E456586BD21769B291E /* SingleValueDecodingContainer.swift in Sources */,
+				488EF3B0F1470B31E35DBB537478D13C /* SingleValueEncodingContainer.swift in Sources */,
+				AC95489E4B065C3736D200E31E985086 /* String+Extensions.swift in Sources */,
+				AE2B13558A88AFC1EE286C0ACF882F45 /* StringBox.swift in Sources */,
+				62FB11D4FB9D046A67745D73DD3A6C34 /* UIntBox.swift in Sources */,
+				9F1C979D43FFBFAB5E96F659964BDFBC /* UnkeyedBox.swift in Sources */,
+				0FD4C17C8BA69F5E469FA284ECDF4298 /* URLBox.swift in Sources */,
+				46CC094A5B1717441505677EE0C182E9 /* XMLCoder-dummy.m in Sources */,
+				41BBA509403564E51451A2ED07187351 /* XMLCoderElement.swift in Sources */,
+				B92E262737811DF37DC77F703A11457E /* XMLDecoder.swift in Sources */,
+				B9B06D4C9FDF5724E40D4AA860E257F6 /* XMLDecoderImplementation.swift in Sources */,
+				6D011DC3DAD45515AD4EA84C279EA30E /* XMLDecodingStorage.swift in Sources */,
+				766D4638A83B41E01775D34CF49D761B /* XMLEncoder.swift in Sources */,
+				8F54AA2404F484751E74CD1311B585E0 /* XMLEncoderImplementation.swift in Sources */,
+				A2448592ABEE1201EE3F2AE1C4819662 /* XMLEncodingStorage.swift in Sources */,
+				03E5EBE84FC7AE7A77785782B5FE28FD /* XMLHeader.swift in Sources */,
+				11F1E4E619B54B2E2BB77820A8BB5AF8 /* XMLKey.swift in Sources */,
+				8B10C047CF31DF58F0AF39548A95E8C9 /* XMLKeyedDecodingContainer.swift in Sources */,
+				02804D0F6AA7A45175B3655322D6C8F0 /* XMLKeyedEncodingContainer.swift in Sources */,
+				D2DBD76DA3D8A95F20BBC429755393D0 /* XMLReferencingEncoder.swift in Sources */,
+				EC12D33FC497E8FFC070A559F272E907 /* XMLStackParser.swift in Sources */,
+				3BD1573E3FFD9796CF72098616BC1AA5 /* XMLUnkeyedDecodingContainer.swift in Sources */,
+				A939C722F9EB661E6224B15345E08912 /* XMLUnkeyedEncodingContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24937C8A71E3139BD70DBAF0F341CA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoreXLSX;
+			target = 3B04C1F70F5EC647583FC131CED595D8 /* CoreXLSX */;
+			targetProxy = 0C7EDB4525F8CE14AA3F1B6D62870A3C /* PBXContainerItemProxy */;
+		};
+		726F1FB43D450B990BB687AD95D9A3EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = E3CB0775E54140DFFF7A1234E60870D0 /* PBXContainerItemProxy */;
+		};
+		A19E52766B0BDEE74A2C434067ACDB7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLCoder;
+			target = E1753B4FA19C5F745ADF56B844ACAB36 /* XMLCoder */;
+			targetProxy = 4E01E3EA5A85B2D54E9806838D54E190 /* PBXContainerItemProxy */;
+		};
+		AF2D2F23556AF8D7682EF45EA0986FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIPFoundation;
+			target = AA15C8469D67684160CC2A7098EB841C /* ZIPFoundation */;
+			targetProxy = 91E725C0F6DF4FA5C21AEA9A5126C1E4 /* PBXContainerItemProxy */;
+		};
+		BC5B5568C62D5ABA4A24C2E71D882AE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLCoder;
+			target = E1753B4FA19C5F745ADF56B844ACAB36 /* XMLCoder */;
+			targetProxy = 3C9DF9DD225863E27FB945CBD49488A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F6A1D0602B8332FEFC030567E9FD3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A321F0EBF07C54604D4BA724C4E64E16 /* Pods-ExcelToJson.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23572CCCBE23546827E7D8E2F6E9D508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B501ADA4D88A858B40EBB50E77A7B6F /* CoreXLSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreXLSX/CoreXLSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreXLSX/CoreXLSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreXLSX/CoreXLSX.modulemap";
+				PRODUCT_MODULE_NAME = CoreXLSX;
+				PRODUCT_NAME = CoreXLSX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		551FD2EDF2780177AD77B6C686B52474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C537111A8151428D03187ECD66FF50D /* Pods-ExcelToJson.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExcelToJson/Pods-ExcelToJson.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7D327837A585BA98657051FE239E5F23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04AACA016488270F98B6303A27316DF /* ZIPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94B24F3C070FBC5BFE5D82FE5B92E73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F32BA374050E41754C7B8AECADCD7CD /* XMLCoder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLCoder/XMLCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLCoder/XMLCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLCoder/XMLCoder.modulemap";
+				PRODUCT_MODULE_NAME = XMLCoder;
+				PRODUCT_NAME = XMLCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA4A025753F77605483359B331DA998F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B501ADA4D88A858B40EBB50E77A7B6F /* CoreXLSX.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreXLSX/CoreXLSX-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreXLSX/CoreXLSX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CoreXLSX/CoreXLSX.modulemap";
+				PRODUCT_MODULE_NAME = CoreXLSX;
+				PRODUCT_NAME = CoreXLSX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1C310C14CEB9E52F26A601AF0B564A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F32BA374050E41754C7B8AECADCD7CD /* XMLCoder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XMLCoder/XMLCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMLCoder/XMLCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XMLCoder/XMLCoder.modulemap";
+				PRODUCT_MODULE_NAME = XMLCoder;
+				PRODUCT_NAME = XMLCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDC4A5815D069809E4DB27260CB673D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04AACA016488270F98B6303A27316DF /* ZIPFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZIPFoundation/ZIPFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZIPFoundation/ZIPFoundation.modulemap";
+				PRODUCT_MODULE_NAME = ZIPFoundation;
+				PRODUCT_NAME = ZIPFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C3ED5291E0BBE8DF4B589AAE46E16C /* Build configuration list for PBXNativeTarget "CoreXLSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23572CCCBE23546827E7D8E2F6E9D508 /* Debug */,
+				CA4A025753F77605483359B331DA998F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB394AA1634C69D190FA52E697F3518 /* Build configuration list for PBXNativeTarget "XMLCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C310C14CEB9E52F26A601AF0B564A5 /* Debug */,
+				94B24F3C070FBC5BFE5D82FE5B92E73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18FC4F55E7ABF28179BB008ED971DFB /* Build configuration list for PBXNativeTarget "Pods-ExcelToJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551FD2EDF2780177AD77B6C686B52474 /* Debug */,
+				1F6A1D0602B8332FEFC030567E9FD3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8847081DFEF88935CB8957B3E9F541 /* Build configuration list for PBXNativeTarget "ZIPFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC4A5815D069809E4DB27260CB673D0 /* Debug */,
+				7D327837A585BA98657051FE239E5F23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
