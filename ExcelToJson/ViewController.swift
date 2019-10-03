@@ -3,13 +3,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var viewModel = ViewManager()
+    var viewModel = ViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         viewModel.setFileName(fileName: Constants.filePath5)
-        viewModel.openCSVFile()
-        print(viewModel.fileContents)
+        viewModel.getDataFromCSV()
     }
 }
 

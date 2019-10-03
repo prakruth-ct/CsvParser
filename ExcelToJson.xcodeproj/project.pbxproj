@@ -11,8 +11,6 @@
 		AB06D94D23433115003E45B6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D94B23433115003E45B6 /* MainVC.swift */; };
 		AB06D94E23433115003E45B6 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB06D94C23433115003E45B6 /* MainVC.xib */; };
 		AB06D950234334BF003E45B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D94F234334BF003E45B6 /* Constants.swift */; };
-		AB06D9522343352B003E45B6 /* BaseVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D9512343352B003E45B6 /* BaseVM.swift */; };
-		AB06D95623433639003E45B6 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB06D95523433639003E45B6 /* ViewManager.swift */; };
 		AB06D95C234355D9003E45B6 /* TP-YML-iOS.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D95A234355D9003E45B6 /* TP-YML-iOS.xlsx */; };
 		AB06D95D234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D95B234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx */; };
 		AB06D96323435E85003E45B6 /* TestSheet.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = AB06D96223435E85003E45B6 /* TestSheet.xlsx */; };
@@ -27,6 +25,8 @@
 		AB3CC57F234327E2009E9570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC57D234327E2009E9570 /* Main.storyboard */; };
 		AB3CC581234327F2009E9570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC580234327F2009E9570 /* Assets.xcassets */; };
 		AB3CC584234327F2009E9570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3CC582234327F2009E9570 /* LaunchScreen.storyboard */; };
+		AB9EBF662345CB2C00960EBC /* CSVPasrserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EBF652345CB2C00960EBC /* CSVPasrserManager.swift */; };
+		AB9EBF682345CB6900960EBC /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EBF672345CB6900960EBC /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,6 @@
 		AB06D94B23433115003E45B6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		AB06D94C23433115003E45B6 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 		AB06D94F234334BF003E45B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		AB06D9512343352B003E45B6 /* BaseVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVM.swift; sourceTree = "<group>"; };
-		AB06D95523433639003E45B6 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
 		AB06D95A234355D9003E45B6 /* TP-YML-iOS.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TP-YML-iOS.xlsx"; path = "Data/TP-YML-iOS.xlsx"; sourceTree = "<group>"; };
 		AB06D95B234355D9003E45B6 /* Product InitiativesSummary Sept302019.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product InitiativesSummary Sept302019.xlsx"; path = "Data/Product InitiativesSummary Sept302019.xlsx"; sourceTree = "<group>"; };
 		AB06D96223435E85003E45B6 /* TestSheet.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = TestSheet.xlsx; path = Data/TestSheet.xlsx; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		AB3CC580234327F2009E9570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB3CC583234327F2009E9570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB3CC585234327F2009E9570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9EBF652345CB2C00960EBC /* CSVPasrserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVPasrserManager.swift; sourceTree = "<group>"; };
+		AB9EBF672345CB6900960EBC /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		FD9C25DACBA1672F276525A1 /* Pods_ExcelToJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelToJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -106,8 +106,8 @@
 		AB06D94623432FF8003E45B6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				AB06D9512343352B003E45B6 /* BaseVM.swift */,
-				AB06D95523433639003E45B6 /* ViewManager.swift */,
+				AB9EBF652345CB2C00960EBC /* CSVPasrserManager.swift */,
+				AB9EBF672345CB6900960EBC /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -277,14 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB9EBF682345CB6900960EBC /* ViewModel.swift in Sources */,
 				AB06D96D234378C2003E45B6 /* Model.swift in Sources */,
-				AB06D95623433639003E45B6 /* ViewManager.swift in Sources */,
 				AB3CC57C234327E2009E9570 /* ViewController.swift in Sources */,
 				AB06D96F2343A185003E45B6 /* Extensions.swift in Sources */,
+				AB9EBF662345CB2C00960EBC /* CSVPasrserManager.swift in Sources */,
 				AB06D94D23433115003E45B6 /* MainVC.swift in Sources */,
 				AB3CC57A234327E2009E9570 /* AppDelegate.swift in Sources */,
 				AB06D950234334BF003E45B6 /* Constants.swift in Sources */,
-				AB06D9522343352B003E45B6 /* BaseVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
