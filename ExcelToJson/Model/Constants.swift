@@ -6,6 +6,7 @@ struct Constants {
     static let filePath4 = "Product InitiativesSummary Sept302019"
     static let stringNil = "nil"
     static let hashString = "#"
+    static let first = 1
     struct FileTypes {
         static let csv = "csv"
         static let xlsx = "xlsx"

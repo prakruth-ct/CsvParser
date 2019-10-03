@@ -1,11 +1,10 @@
-import CoreXLSX
-
 class ViewManager {
     
     var fileName: String?
     var excelFile: XLSXFile?
     var fileContents: [[String]]?
-    var structuredRowContents: [RowContents]?
+    var structuredRowContents: [Section.Row]?
+    var dataSrc: [Section] = []
     
     func setFileName(fileName: String) {
         self.fileName = fileName
@@ -13,11 +12,8 @@ class ViewManager {
     
     func openCSVFile() {
         guard  let filePath = Bundle.main.path(forResource: fileName, ofType: Constants.FileTypes.csv) else { return }
-        
-        var fileContents2: [CSVModel] = []
-        var sectionTitle: String
+
         let fileContents = try? String(contentsOfFile: filePath)
-        print(fileContents)
         var cleanedFileContents: [[String]] = [[]]
         let rows = fileContents?.components(separatedBy: "\r\n")
         for eachRow in rows ?? [""] {
@@ -57,43 +53,36 @@ class ViewManager {
     
     func formatRowContents() {
         
+        var sectionTitles: [String] = []
+        var sectionContents: [[Section.Row]] = []
+        var sectionCount = -1
+        
         guard let fileContents = fileContents else { return }
-//
-//        var structuredFileContents: []
-//        for row in fileContents {
-//            if row[0] == "#" {
-//
-//            }
-//            var rowContents = RowContents(slNo: Int(row[0]), initiative: row[1], description: row[2], pilotData: row[3], clientLaunchData: row[4], online: row, mobile: <#String#>, dda: <#String#>, wealth: <#String#>)
-//
-//        }
         
-        
-//
-//        let columns = eachRow.components(separatedBy: ",")
-//        if columns.first == "Table 1" {
-//            continue
-//        } else if columns.first == Constants.hashString {
-//            continue
-//        } else if columns.first?.isNumber ?? true {
-//            cleanedFileContents.append(columns)
-//        } else {
-//            fileContents2.append(CSVModel(sectionTitle: <#String#>, row: <#RowContents#>))
-//        }
+        for row in fileContents {
+            if row.first == "Table 1" || row.first == Constants.hashString || row.first?.isEmpty ?? true || row.isEmpty {
+                continue
+            } else if row[2].isEmpty {
+                sectionTitles.append(row.first ?? "")
+                sectionCount += 1
+                sectionContents.append([])
+            } else {
+                sectionContents[sectionCount].append(Section.Row(rowID: Int(row[0]) ?? 0, initiative: row[1], description: row[2], pilotDate: row[3], clientLaunchDate: row[4], online: row[5], mobile: row[6], dda: row[7], wealth: row[8]))
+            }
+        }
+        sectionCount = 0
+        for section in sectionContents {
+            if section.isEmpty{
+                continue
+            }
+            dataSrc.append(Section(sectionID: sectionCount + 1, sectionTitle: sectionTitles[sectionCount], rows: section))
+            sectionCount += 1
+        }
     }
     
     func openExcelFile() {
         guard  let filePath = Bundle.main.path(forResource: fileName, ofType: Constants.FileTypes.xlsx) else { return }
         
         excelFile = XLSXFile(filepath: filePath)
-    }
-    
-    func cleanRows(file:String)->String{
-        var cleanFile = file
-        cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
-        cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
-        //        cleanFile = cleanFile.replacingOccurrences(of: ";;", with: "")
-        //        cleanFile = cleanFile.replacingOccurrences(of: ";\n", with: "")
-        return cleanFile
     }
 }
