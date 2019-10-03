@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ExcelToJson/ViewModel/ViewManager.swift"
-            timestampString = "591775680.036368"
+            timestampString = "591775876.484718"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "openExcelFile()"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "formatRowContents()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

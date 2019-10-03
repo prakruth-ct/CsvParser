@@ -1,7 +1,8 @@
+import UIKit
+
 class ViewManager {
     
     var fileName: String?
-    var excelFile: XLSXFile?
     var fileContents: [[String]]?
     var structuredRowContents: [Section.Row]?
     var dataSrc: [Section] = []
@@ -78,11 +79,5 @@ class ViewManager {
             dataSrc.append(Section(sectionID: sectionCount + 1, sectionTitle: sectionTitles[sectionCount], rows: section))
             sectionCount += 1
         }
-    }
-    
-    func openExcelFile() {
-        guard  let filePath = Bundle.main.path(forResource: fileName, ofType: Constants.FileTypes.xlsx) else { return }
-        
-        excelFile = XLSXFile(filepath: filePath)
     }
 }
